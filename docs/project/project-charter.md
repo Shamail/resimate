@@ -1,7 +1,7 @@
 # Project Charter: Resimate Cloud Migration
 
 **Document Version**: 1.0  
-**Date**: September 1, 2024  
+**Date**: September 1, 2025  
 **Project Manager**: Shamail (Consulting)  
 **Client**: Resimate.io (Patrick & Floyd)  
 
@@ -94,11 +94,11 @@ Enable Resimate to deploy their resilience management platform directly in custo
 
 | Timeline | Platform | Customer Type | Status |
 |----------|----------|---------------|--------|
-| Q4 2024 | GCP GKE | Pilot Customer | Planned |
-| Q1 2025 | AWS EKS | Enterprise Customer | Planned |
-| Q2 2025 | Azure AKS | Healthcare Customer | Planned |
-| Q2 2025 | Azure AKS | Government Customer | Planned |
-| Q3 2025 | On-Premise | Financial Services | Planned |
+| Q4 2025 | GCP GKE | Pilot Customer | Planned |
+| Q1 2026 | AWS EKS | Enterprise Customer | Planned |
+| Q2 2026 | Azure AKS | TBD | Planned |
+| Q2 2026 | Azure AKS | TBD | Planned |
+| Q3 2026 | On-Premise | TBD | Planned |
 
 ## Key Deliverables
 
@@ -133,7 +133,7 @@ Enable Resimate to deploy their resilience management platform directly in custo
 ## Budget & Timeline
 
 **Total Duration**: 24 weeks (6 months)  
-**Start Date**: September 2024  
+**Start Date**: September 2025  
 **Target Completion**: March 2025  
 
 ### Resource Allocation
