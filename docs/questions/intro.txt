@@ -1,0 +1,65 @@
+1. Business & Deployment Model
+
+  - Q: What's the target deployment model for each customer? (Single-tenant per customer, or multi-tenant with logical separation?)
+  - A: Single-tenant per customer
+  - Q: Will you maintain the SaaS offering alongside customer-deployed versions?
+  - A: No
+  - Q: What level of customization will customers require?
+  - A: None
+  - Q: What's the expected number of customer deployments in the next 12-24 months?
+  - A: 5, 1 AWS, 1 GCP, 2 Azure, 1 on-prem
+
+  2. Microservices Architecture
+
+  - Q: You mentioned an attached diagram - can you describe the current microservices and their responsibilities?
+  - A: /Users/shamail/Desktop/2025-Q3-resimate_c4-Container\ -\ Resimate\ solution.drawio-1.pdf
+  - Q: What communication patterns exist between services? (sync/async, REST/gRPC/message queues?)
+  - A: REST
+  - Q: Are there any stateful services that require special consideration?
+  - A: See /Users/shamail/Desktop/2025-Q3-resimate_c4-Container\ -\ Resimate\ solution.drawio-1.pdf
+  - Q: What's the current container orchestration approach (if any)?
+  - A: Firebase Functions/GCP Cloud Run to run containers
+
+  3. Data & State Management
+
+  - Q: What's the data isolation strategy between tenants?
+  - A: None, each tenant has its own database
+  - Q: Are there any data residency requirements from customers?
+  - A: None
+  - Q: How do you handle database migrations currently?
+  - A: None
+  - Q: What's the backup and disaster recovery strategy?
+  - A: None
+
+  4. Security & Compliance
+
+  - Q: What compliance requirements do your customers have? (GDPR, HIPAA, SOC2, etc.)
+  - A: GDPR, HIPAA, SOC2
+  - Q: How will you handle secrets rotation across different cloud providers?
+  - A: Need to investigate
+  - Q: What's the approach for network security and isolation?
+  - A: Need to investigate, may differ per client
+  - Q: How will you manage SSL certificates and domain configuration?
+  - A: Need to investigate
+
+  5. Operations & Maintenance
+
+  - Q: How will you handle updates and patches across customer environments?
+  - A: Need to investigate
+  - Q: What observability/monitoring requirements do you have?
+  - A: Need to investigate
+  - Q: Will customers have access to any administrative interfaces?
+  - A: Would like to, Need to investigate
+  - Q: What's the support model for customer-deployed instances?
+  - A: Need to investigate based on our solution
+
+  6. Technical Constraints
+
+  - Q: Are there any specific versions or features of cloud services you depend on?
+  - A: We're flexible
+  - Q: What's the minimum and expected scale for deployments?
+  - A: Need to investigate
+  - Q: Are there any real-time or latency-sensitive components?
+  - A: No
+  - Q: What's your current CI/CD pipeline setup?
+  - A: Need to investigate
